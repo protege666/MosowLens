@@ -14,13 +14,11 @@ public class Switch : MonoBehaviour
     public GameObject OptionBttn;
     public GameObject OptionMenu;
     public GameObject BackOptionBttn;
-
     public GameObject PhotoCamera;
 
     bool sheet_active = true;
     bool option_bool = true;
 
-   
 
     public void OpenAndCloseSheet()
     {
@@ -37,6 +35,7 @@ public class Switch : MonoBehaviour
             sheet_active = true;
         }
     }
+
 
     public void OpenAndCloseOptionBttn()
     {

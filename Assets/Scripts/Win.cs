@@ -8,11 +8,15 @@ public class Win : MonoBehaviour
 {
     public GameObject photoCards;
 
-    public void GameOver(){
+
+    public void GameOver()
+    {
         photoCards.SetActive(true);
     }
 
-    public void RestartGame(){
+
+    public void RestartGame()
+    {
         SceneManager.LoadScene(0);
     }
 

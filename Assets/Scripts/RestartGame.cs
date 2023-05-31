@@ -5,12 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class RestartGame : MonoBehaviour
 {
-    public void QuitGame() {
+    public void QuitGame() 
+    {
         {
             Application.Quit();
         }
     }
-    public void Restart(){
+
+    
+    public void Restart()
+    {
         SceneManager.LoadScene(0, LoadSceneMode.Single);
     }
 }

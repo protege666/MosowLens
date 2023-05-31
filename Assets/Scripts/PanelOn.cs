@@ -15,22 +15,20 @@ public class PanelOn : MonoBehaviour
     {
         panel.SetActive(true);
         anim.Play("PanelOff");
-
     }
+
+
     public void PanelOffClick()
     {
-        
-        anim.Play("PanelOn");
-        
-        
+        anim.Play("PanelOn"); 
     }
+
+
     public void PanelOffClickWithoutButton()
     {
-        
-        anim.Play("PanelOffWithoutBTN");
-        
-        
+        anim.Play("PanelOffWithoutBTN");   
     }
+
 
     public void NoActivePanel()
     {

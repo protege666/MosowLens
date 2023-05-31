@@ -10,7 +10,6 @@ public class NewBackGround : MonoBehaviour
     public Animator anim;
     public Sprite[] DistrictImage = new Sprite[8];
 
-
     int Number;
     int NumberRegion;
 
@@ -19,15 +18,18 @@ public class NewBackGround : MonoBehaviour
         NumberRegion = Number;
     }
 
+
     public void SetImage()
     {
         NewBackGroundImage.sprite = DistrictImage[NumberRegion];
     }
 
+
     public void SetAnim()
     {
         anim.SetTrigger("In");
     }
+
 
     public void SetBlackoutPanel()
     {

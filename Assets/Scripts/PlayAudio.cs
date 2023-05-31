@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayAudio : MonoBehaviour
-{
-
+{    
     public AudioSource audioSource;
     public Slider volumeSlider;
     // Start is called before the first frame update
